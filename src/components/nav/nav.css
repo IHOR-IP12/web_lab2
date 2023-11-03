@@ -1,0 +1,55 @@
+/* Existing CSS */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem 28rem;
+}
+
+.llogo {
+    height: 3rem;
+    width: 3rem;
+    padding-left: 22rem;
+}
+
+.navigation__list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin-left: -500px;
+}
+
+.navigation__text {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.2s;
+}
+
+.navigation__text:hover {
+    background-color: #555;   
+}
+
+.navigation__text:not(:hover) {
+    margin-left: 0;
+}
+
+.navigation__container {
+    margin-left: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.navigation__list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.navigation__list li {
+    margin: 0 10px;
+}
