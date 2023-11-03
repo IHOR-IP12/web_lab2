@@ -1,0 +1,54 @@
+.catalog-search {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+}
+
+select {
+    padding: 10px;
+    border: 2px solid #6a6a6a;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #ffffff; /* Серый фон */
+    color: #333;
+    cursor: pointer;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+    margin-top: 7px;
+    margin-right: 3px; /* Смещение на 20px вниз */
+}
+
+select:hover {
+    border-color: #666;
+    background-color: #aaa; /* Более светлый серый фон при наведении */
+}
+
+select:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+select:focus::after {
+    transform: translateY(-50%) rotate(180deg);
+    transition: transform 0.3s ease;
+}
+
+select option {
+    transition: transform 0.2s ease;
+}
+
+select option:hover {
+    transform: scale(1.1);
+}
+
+
+
+/* якщо що видалиш */
+

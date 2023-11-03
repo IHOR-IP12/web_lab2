@@ -1,0 +1,20 @@
+.viewmoreButton {
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.2s;
+    display: inline-block;
+    margin-top: 1rem;
+    margin-top: -300px; /* Піднімемо вверх на 100px */
+    position: relative;
+    top: -135px;
+    right: -700px;
+}
+
+.viewmoreButton:hover {
+    background-color: #555;
+    
+}

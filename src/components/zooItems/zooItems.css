@@ -1,0 +1,48 @@
+/* Styles for the ZooItems component */
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px;
+}
+
+.inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Styles for the DefaultZoo component */
+.default-zoo {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.default-zoo img {
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.default-zoo h3 {
+    margin: 10px 0;
+}
+
+.default-zoo p {
+    margin: 0;
+}
+
+.default-zoo .location {
+    font-weight: bold;
+}
+
+.default-zoo .price {
+    color: #e44d26;
+    /* You can choose your own color */
+}

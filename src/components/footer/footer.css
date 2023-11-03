@@ -1,0 +1,37 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer-title p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: -700px;
+    width: 180px;
+    
+
+
+  }
+  
+  .footer-logo {
+    max-width: 100px;
+    height: auto;
+    margin-top: -100px;
+    position: relative;
+    top: -35px; /* Піднімаємо логотип на 50px вгору */
+  }
+  
+  .footer-right {
+    font-size: 14px;
+  }
+  
