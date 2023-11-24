@@ -1,0 +1,7 @@
+CREATE TABLE zoo (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    location VARCHAR(255) NOT NULL,
+    area VARCHAR(255) NOT NULL,
+    price DECIMAL(8, 2) NOT NULL
+);
